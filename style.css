@@ -1,0 +1,59 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('ping4.png');
+}
+p.headi{
+    font-weight: 500;
+    font-size: 40px;
+    color:#FF6978;
+    text-align: center;
+}
+#result{
+    font-size: 27px;
+    font-weight: 300;
+    color:#FF6978;
+    text-align: center;
+}
+#pong{
+    position: absolute;
+    margin :auto;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#main{
+    display: none;
+}
+div.container{
+    margin-top: 10%;
+}
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 28px;
+    width: 180px;
+    height: 70px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #FF6978;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button1:hover {background-color: #3e8e41}
+  
+  .button1:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  h2{
+      display: inline;
+      color:#FF6978;
+  }

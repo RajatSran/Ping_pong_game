@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ping Pong Game</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="tutorial.css">
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+                <p class="headi"><b>PING PONG TUTORIAL</b></p>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <center>
+                        <h2>Controls for player1</h2><br><br>
+                        <button class="button1" id="p1up" onclick="p1up()">w</button>
+                        <br><br>
+                        <button class="button1" id="p1down" onclick="p1down()">s</button>
+                    </center>
+                    
+                </div>
+                <div class="col-md-4">
+                    <canvas id="pong" width="410" height="270"></canvas>
+                </div>
+                <div class="col-md-4">
+                    <center>
+                        <h2>Controls for player2</h2><br><br>
+                        <button class="button1" id="p2up" onclick="p2up()">arrow up</button><br><br>
+                        <button class="button1" id="p2down" onclick="p2down()">arrow down</button>
+                    </center>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+            <div class="row">
+                <center>
+                    <h3>text behind table</h3><br><br>
+                    <a href='form.html'>
+                        <button class="button2">
+                            <b>Ready</b>
+                        </button>
+                    </a><br><br>
+                    <h2 ><i> press Ready when you are done with the tutorial and ready to start the game</i> </h2><br><br>
+                </center>
+            </div>
+            
+        </div>
+        
+        
+        <script src="tutorial.js"></script>
+    </body>
+</html>
